@@ -16,8 +16,11 @@ In this code, we are going to see four ways of caluclating an integral numerical
 1- The square integration method:
 
 $$\int_{a}^{b}f(x)dx = \sum_{i=0}^{N-1} \Delta x_i f(x_i) $$
-$$\Delta x_i &= \frac{b-a}{N} $$
+
+$$\Delta x_i = \frac{b-a}{N} $$
+
 $$\int_{a}^{b}f(x)dx = \frac{b-a}{N} [f(x_0) + f(x_1) + \dots + f(x_{N-1})] $$
+
 $$\int_{a}^{b}f(x)dx = \frac{b-a}{N} \sum_{i=0}^{N-1} f(x_i) $$
 
 
