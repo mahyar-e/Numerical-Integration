@@ -38,5 +38,6 @@ In this method we are calcualting the tarpezoids under the function. This is som
 
 
 $$ \int_{a}^{b}f(x)dx = \frac{\Delta x}{3} [f(x_0) + 4 \sum^{N-1}_{i=1, 3, 5} f(x_i) + 2 \sum^{N-2}_{i=2, 4, 6} f(x_i) +f(x_n)]  $$
+
 $$ \int_{a}^{b}f(x)dx = \frac{b - a}{3 N} [f(x_0) + 4 \sum^{N-1}_{i=1, 3, 5} f(x_i) + 2 \sum^{N-2}_{i=2, 4, 6} f(x_i) +f(x_n)]  $$
 
