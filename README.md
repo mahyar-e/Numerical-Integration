@@ -41,3 +41,19 @@ $$ \int_{a}^{b}f(x)dx = \frac{\Delta x}{3} [f(x_0) + 4 \sum^{N-1}_{i=1, 3, 5} f(
 $$ \int_{a}^{b}f(x)dx = \frac{b - a}{3 N} [f(x_0) + 4 \sum^{N-1}_{i=1, 3, 5} f(x_i) + 2 \sum^{N-2}_{i=2, 4, 6} f(x_i) +f(x_n)]  $$
 
 Simpson method is the second order approximation of the calculation. We use three points from the function to fit a second degree polynomial and calculate the surface beneath the figure. Simpson method has more precise solutions to problems.
+
+
+### 4- Monte Carlo method:
+
+This method is like the square integration method but $x_i$ is selected randomly (not uniform random mostly). This method can be used for non-continuous functions or functions with singularities.
+
+Here is an example calculating some integral vs the points used in mc integration (N):
+
+![download](https://github.com/mahyar-e/Numerical-Integration/assets/78594407/0649c64e-9479-435f-bd31-d1677814211f)
+
+As you can see, the more points used, the better the calculated answer.
+
+Also, you can see some exmaples solved using these method in the jupyter notebook.
+
+Mohammad Mahyar Esfahani
+
