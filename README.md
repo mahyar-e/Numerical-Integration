@@ -23,4 +23,5 @@ $$\int_{a}^{b}f(x)dx = \frac{b-a}{N} [f(x_0) + f(x_1) + \dots + f(x_{N-1})] $$
 
 $$\int_{a}^{b}f(x)dx = \frac{b-a}{N} \sum_{i=0}^{N-1} f(x_i) $$
 
+This method is pretty straightforward. We are literally caluclating the areas of $N - 1$ squares below the desired function.
 
