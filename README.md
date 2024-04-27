@@ -4,7 +4,7 @@ In analysis, numerical integration comprises a broad family of algorithms for ca
 
 The basic problem in numerical integration is to compute an approximate solution to a definite integral
 
-$$\int_{a}^{b}f(x)dx &= \sum_{i=0}^{N-1} \Delta x_i f(x_i)$$
+$$\int_{a}^{b}f(x)dx = \sum_{i=0}^{N-1} \Delta x_i f(x_i)$$
 
 
 to a given degree of accuracy. If f(x) is a smooth function integrated over a small number of dimensions, and the domain of integration is bounded, there are many methods for approximating the integral to the desired precision.
