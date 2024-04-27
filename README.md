@@ -30,3 +30,5 @@ This method is pretty straightforward. We are literally caluclating the areas of
 $$ \int_{a}^{b}f(x)dx = \frac{\Delta x}{2} [f(x_0) + 2 \sum^{N-1}_{i=1} f(x_i) + f(x_n)]  $$
 
 $$ \int_{a}^{b}f(x)dx = \frac{b - a}{2 N} [f(x_0) + 2 \sum^{N-1}_{i=1} f(x_i) + f(x_n)]  $$
+
+In this method we are calcualting the tarpezoids under the function. This is somehow the first order approximation, because we are fitting a line on the plot between two points and calculate the area of  the tarpezoid below the tangent line.  
