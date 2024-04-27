@@ -28,4 +28,5 @@ This method is pretty straightforward. We are literally caluclating the areas of
 ### 2- The tarpezoidal integration method:
 
 $$ \int_{a}^{b}f(x)dx = \frac{\Delta x}{2} [f(x_0) + 2 \sum^{N-1}_{i=1} f(x_i) + f(x_n)]  $$
+
 $$ \int_{a}^{b}f(x)dx = \frac{b - a}{2 N} [f(x_0) + 2 \sum^{N-1}_{i=1} f(x_i) + f(x_n)]  $$
