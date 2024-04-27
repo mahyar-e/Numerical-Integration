@@ -13,7 +13,7 @@ Numerical integration has roots in the geometrical problem of finding a square w
 
 In this code, we are going to see four ways of caluclating an integral numerically.
 
-1- The square integration method:
+### 1- The square integration method:
 
 $$\int_{a}^{b}f(x)dx = \sum_{i=0}^{N-1} \Delta x_i f(x_i) $$
 
@@ -25,3 +25,7 @@ $$\int_{a}^{b}f(x)dx = \frac{b-a}{N} \sum_{i=0}^{N-1} f(x_i) $$
 
 This method is pretty straightforward. We are literally caluclating the areas of $N - 1$ squares below the desired function.
 
+### 2- The tarpezoidal integration method:
+
+$$ \int_{a}^{b}f(x)dx = \frac{\Delta x}{2} [f(x_0) + 2 \sum^{N-1}_{i=1} f(x_i) + f(x_n)]  $$
+$$ \int_{a}^{b}f(x)dx = \frac{b - a}{2 N} [f(x_0) + 2 \sum^{N-1}_{i=1} f(x_i) + f(x_n)]  $$
