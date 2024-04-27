@@ -39,7 +39,7 @@ In this method, we are calculating the trapezoids under the function. This is so
 
 $$ \int_{a}^{b}f(x)dx = \frac{\Delta x}{3} [f(x_0) + 4 \sum^{N-1}_{2i + 1 =1}f(x_i) + 2 \sum^{N-2}_{2i=1} f(x_i) +f(x_n)] $$
 
-$$ \int_{a}^{b}f(x)dx = \frac{\Delta x}{3} [f(x_0) + 4 {\sum^{N-1}_{i=1, 3, 5} f(x_i)} + ]$$
+$$ \int_{a}^{b}f(x)dx = \frac{\Delta x}{3} [f(x_0) + 4 {\sum^{N-1}_{i=1, 3, 5} f(x_i)} + 2 {\sum^{N-2}_{i=2, 4, 6} f(x_i) +f(x_n)}]$$
 
 $$ \int_{a}^{b}f(x)dx = \frac{\Delta x}{3} [f(x_0) + 4 \sum^{N-1}_{i=1, 3, 5} f(x_i) + 2 \sum^{N-2}_{i=2, 4, 6} f(x_i) +f(x_n)] $$
 
