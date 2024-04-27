@@ -40,3 +40,4 @@ $$ \int_{a}^{b}f(x)dx = \frac{\Delta x}{3} [f(x_0) + 4 \sum^{N-1}_{i=1, 3, 5} f(
 
 $$ \int_{a}^{b}f(x)dx = \frac{b - a}{3 N} [f(x_0) + 4 \sum^{N-1}_{i=1, 3, 5} f(x_i) + 2 \sum^{N-2}_{i=2, 4, 6} f(x_i) +f(x_n)]  $$
 
+Simpson method is the second order approximation of the calculation. We use three points from the function to fit a second degree polynomial and calculate the surface beneath the figure. Simpson method has more precise solutions to problems.
